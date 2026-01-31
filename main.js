@@ -43,7 +43,7 @@ if (editor === "yes") {
   document.body.style.textAlign="center";
 
   appDiv.innerHTML=`
-    <h1>Create glitch-links 😈</h1>
+    <h1>Create glitch-links🔥</h1>
 
     <input id="name" placeholder="username"><br><br>
 
@@ -167,9 +167,9 @@ async function loadProfile(name){
   if(data.theme==="<<<<<TIDAL WAVE>>>>>"){
     const sp=document.createElement("div");
     sp.innerHTML=`
-    <iframe style="border-radius:12px;max-width:400px;margin:20px auto;display:block"
+    <iframe style="border-radius:6px;max-width:200px;margin:20px auto;display:block"
       src="https://open.spotify.com/embed/track/4mTLnLuHoGhA2xd595OMg1"
-      width="100%" height="352" frameborder="0"
+      width="100%" height="176" frameborder="0"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
     </iframe>`;
     appDiv.appendChild(sp);
@@ -194,3 +194,4 @@ async function loadProfile(name){
     appDiv.appendChild(btn);
   });
 }
+
